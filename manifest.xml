@@ -1,0 +1,18 @@
+<package>
+  <description brief="Kinematics">
+
+     Kinematics
+
+  </description>
+  <author></author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/Kinematics</url>
+	<export>
+		<cpp cflags="-I${prefix}/include -I{$prefix}/msg_gen/cpp/include" lflags="-L${prefix}/lib -ldiffkin -lboatkin "/>
+	</export>
+	<depend package="helpers"/>
+
+</package>
+
+
